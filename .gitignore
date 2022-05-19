@@ -1,0 +1,27 @@
+# Node
+node_modules/
+.node_repl_history
+
+app/node_modules/
+server/node_modules/
+
+# Typescript
+typings/
+
+# Yarn
+yarn-error.log
+.yarn-integrity
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# Build
+dist/
+dist/**
+
+build
+
+.idea
