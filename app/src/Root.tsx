@@ -1,13 +1,16 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 
-import App from "src/App";
+import App from "./App";
+import theme from "./configs/theme";
 
-import theme from "src/configs/theme";
+export const ThemeContext = React.createContext<ITheme>({ theme })
 
 const Root: React.FC = () => (
     <ThemeProvider theme={theme}>
-        <App />
+        <ThemeContext.Provider value={{ theme }}>
+            <App />
+        </ThemeContext.Provider>
     </ThemeProvider>
 );
 

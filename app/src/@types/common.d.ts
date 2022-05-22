@@ -27,10 +27,10 @@ interface ISimplePaginationResponse<T> {
     errors: string[];
 }
 
-interface IResponse<T> {
+export interface IResponse<T> {
     success: boolean;
     payload: T;
-    errors: string[];
+    errors: string[] | string;
 }
 
 interface IDataPayload<T> {
