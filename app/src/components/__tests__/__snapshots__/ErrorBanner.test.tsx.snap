@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBanner should render correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bdvvtL bxgYUc"
+    >
+      this is an error
+    </div>
+  </div>
+</body>
+`;
