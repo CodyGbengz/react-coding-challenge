@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bdvvtL juZyqr"
+    >
+      <table>
+        <thead>
+          <tr>
+            <th
+              class="clickableHeader"
+              data-testid="name-column"
+            >
+              Name 
+              <span>
+                ↧
+              </span>
+            </th>
+            <th>
+              Image
+            </th>
+            <th>
+              Status
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Dragon
+            </td>
+            <td>
+              <img
+                alt="item image"
+                data-testid="Dragon"
+                src="https://picsum.photos/200/300"
+              />
+            </td>
+            <td>
+              <span
+                class="sc-gsDKAQ jgQYRQ"
+                color="new"
+              >
+                new
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Dog
+            </td>
+            <td>
+              <img
+                alt="item image"
+                data-testid="Dog"
+                src="https://picsum.photos/200/300"
+              />
+            </td>
+            <td>
+              <span
+                class="sc-gsDKAQ eykIlQ"
+                color="error"
+              >
+                error
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+`;

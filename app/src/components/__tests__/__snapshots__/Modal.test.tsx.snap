@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render correctly 1`] = `
+<body>
+  <div>
+    <section
+      class="sc-dkPtRN fijTDQ"
+    >
+      <div
+        class="imageWrapper"
+      >
+        <img
+          alt="image description"
+          src="https://picsum.photos/200/300"
+        />
+      </div>
+      <div
+        class="textWrapper"
+      >
+        <h4>
+          Dragon
+        </h4>
+        <span>
+          <select
+            id="status"
+            name="status"
+          >
+            <option
+              class="sc-hKwDye dyBJLE"
+              value="error"
+            >
+              error
+            </option>
+            <option
+              class="sc-hKwDye dyBJLE"
+              selected=""
+              value="new"
+            >
+              new
+            </option>
+            <option
+              class="sc-hKwDye dyBJLE"
+              value="processing"
+            >
+              processing
+            </option>
+            <option
+              class="sc-hKwDye dyBJLE"
+              value="done"
+            >
+              done
+            </option>
+          </select>
+        </span>
+      </div>
+    </section>
+  </div>
+</body>
+`;
