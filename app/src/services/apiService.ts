@@ -14,10 +14,10 @@ async function apiGet<TData = any>(url: string): Promise<IResponse<TData>> {
   }
 }
 
-async function apiPut<T = unknown>(
+async function apiPut<TData = any>(
   url: string,
   data?: Record<string, any>
-): Promise<IResponse<T>> {
+): Promise<IResponse<TData>> {
   const requestOptions = {
     method: "PUT",
     headers: { "Content-Type": "application/json" },
@@ -27,7 +27,7 @@ async function apiPut<T = unknown>(
   try {
     const response: any = await fetch(url, requestOptions);
     const { payload, success, error } = await response.json();
-    const dataToReturn: IResponse<T> = {
+    const dataToReturn: IResponse<TData> = {
       success,
       payload,
       errors: error,
