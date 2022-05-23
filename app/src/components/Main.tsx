@@ -37,9 +37,8 @@ export const Main: React.FC = (): any => {
     <Section
         tabIndex={0}
         onClick={() => selectedItem && handleClose()}
-        onKeyPress={event => {
-           // Listening for the Esc key as required didn't seem to work. Probably an issue with my Mac M1 chip
-            if (event.key === 'Enter') handleClose()}}
+        onKeyDown={event => {
+            if (event.key === 'Escape') handleClose()}}
     >
       <input
         type="text"
